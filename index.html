@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARC Studio - From Blueprint to Reality</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400&family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo">
+            <a href="#">ARC Studio</a>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#process">Process</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-background"></div>
+            <div class="hero-left">
+                <!-- Animated Blueprint SVG -->
+                <svg class="blueprint-svg" viewBox="0 0 400 400" preserveAspectRatio="xMidYMid slice">
+                    <path class="blueprint-bg" d="M50 50 H350 V350 H50 Z M100 100 H300 V300 H100 Z M150 150 H250 V250 H150 Z" />
+                    <path class="blueprint-line" d="M50 50 H350 V350 H50 Z M100 100 H300 V300 H100 Z M150 150 H250 V250 H150 Z M50 200 H350 M200 50 V350" />
+                </svg>
+            </div>
+            <div class="hero-center">
+                <h1 class="hero-title">
+                    <span class="en">From Blueprint to Reality</span>
+                    <span class="ko">아이디어에서 현실로 이어지는 공간</span>
+                </h1>
+                <div class="cta-buttons">
+                    <a href="#projects" class="cta-primary">프로젝트 보기</a>
+                    <a href="#contact" class="cta-secondary">문의하기</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <p class="about-philosophy">
+                ARC Studio는 단순한 공간을 넘어, 당신의 철학과 비전이 담긴 브랜드를 구축합니다. 
+                정밀한 설계부터 감각적인 완성까지, 모든 과정은 하나의 예술 작품을 만드는 여정입니다.
+            </p>
+        </section>
+
+        <div class="animated-divider"></div>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <h2 class="section-title">Projects</h2>
+            <div class="project-grid">
+                <!-- Project Item 1 -->
+                <figure class="project-item">
+                    <div class="project-image-container">
+                        <img src="/Users/choejeong-won/Desktop/interior/images/pre1after.png" alt="Completed Interior 1" class="project-img-real">
+                        <img src="/Users/choejeong-won/Desktop/interior/images/preview1.png" alt="Blueprint 1" class="project-img-blueprint">
+                    </div>
+                    <figcaption>
+                        <h3>Pangyo Residence</h3>
+                        <p>2024 / Pangyo</p>
+                    </figcaption>
+                </figure>
+                <!-- Project Item 2 -->
+                <figure class="project-item">
+                    <div class="project-image-container">
+                        <img src="/Users/choejeong-won/Desktop/interior/images/after2.png" alt="Completed Interior 2" class="project-img-real">
+                        <img src="/Users/choejeong-won/Desktop/interior/images/preview2.png" alt="Blueprint 2" class="project-img-blueprint">
+                    </div>
+                    <figcaption>
+                        <h3>The Hyundai Showroom</h3>
+                        <p>2023 / Seoul</p>
+                    </figcaption>
+                </figure>
+                <!-- Project Item 3 -->
+                <figure class="project-item">
+                    <div class="project-image-container">
+                        <img src="/Users/choejeong-won/Desktop/interior/images/after3.png" alt="Completed Interior 3" class="project-img-real">
+                        <img src="/Users/choejeong-won/Desktop/interior/images/PREVIEW3.png" alt="Blueprint 3" class="project-img-blueprint">
+                    </div>
+                    <figcaption>
+                        <h3>Gangnam Office</h3>
+                        <p>2024 / Gangnam</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- Process Section -->
+        <section id="process" class="process-section">
+            <h2 class="section-title">Our Process</h2>
+            <div class="process-flow">
+                <div class="process-step" data-step="01">
+                    <h3>상담</h3>
+                    <p>클라이언트의 비전과 요구사항을 깊이 있게 이해하고 프로젝트의 가능성을 탐색합니다.</p>
+                </div>
+                <div class="process-step" data-step="02">
+                    <h3>설계</h3>
+                    <p>아이디어를 구체적인 도면으로 시각화하고, 기능과 미학이 조화된 공간을 디자인합니다.</p>
+                </div>
+                <div class="process-step" data-step="03">
+                    <h3>시공</h3>
+                    <p>숙련된 전문가들이 정밀한 설계를 바탕으로 오차 없는 결과물을 만들어냅니다.</p>
+                </div>
+                <div class="process-step" data-step="04">
+                    <h3>완공</h3>
+                    <p>최종 검수와 함께, 완벽하게 구현된 공간을 클라이언트에게 전달합니다.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="contact-bg-slider">
+                <div class="contact-bg-slide" style="background-image: url('/Users/choejeong-won/Desktop/interior/images/contectback1.png');"></div>
+                <div class="contact-bg-slide" style="background-image: url('/Users/choejeong-won/Desktop/interior/images/contectback2.png');"></div>
+            </div>
+            <div class="contact-content">
+                <h2 class="section-title">Contact Us</h2>
+                <p class="contact-subtitle">야이디어를 공유해주세요. 현실로 만들어드립니다.</p>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Name" required>
+                        <input type="email" name="email" placeholder="Email" required>
+                    </div>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="cta-primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2025 ARC Studio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
